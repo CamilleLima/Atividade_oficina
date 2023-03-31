@@ -1,0 +1,41 @@
+div{
+
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+#menu-h{
+list-style: none;
+    padding: 0;
+    background-color: rgb(67, 98, 155);
+    flex-wrap: wrap;
+}
+
+#menu-h li{
+
+    display: inline-block;
+}
+
+#menu-h li a{
+
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+#menu-h li a:hover{
+
+ background-color: darkmagenta;
+}
+
+footer {
+    background-color: rgb(67, 98, 155);
+    margin-top: auto;
+    color: white;
+    padding: 0.5em;
+}
+
