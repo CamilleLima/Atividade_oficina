@@ -1,16 +1,9 @@
-div {
 
-    margin: auto;
-    padding: auto;
-    box-sizing:border-box;
-
-}
 
 #menu-h {
     list-style: none;
     padding: 0;
     background-color: rgb(67, 98, 155);
-    flex-wrap: wrap;
 }
 
 #menu-h li {
@@ -29,7 +22,7 @@ div {
 
 #menu-h li a:hover {
 
-    background-color: rgb(91, 35, 221);
+    background-color: darkmagenta;
 }
 
 footer {
@@ -37,11 +30,51 @@ footer {
     margin-top: auto;
     color: white;
     padding: 0.5em;
+    
 }
 
-.container {
+#div1{
 
+    position: relative;
     display: inline-block;
-    align-content:center;
-    justify-content:center;
+    margin-left: 14px;
+    width: auto;
+    border: 2px solid white
+
+}
+
+#div2{
+    display: inline-block;
+    margin: 25px;
+    width: auto;
+    border: 2px solid white
+
+
+}
+
+#div3{
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+    border: 2px solid white
+
+}
+
+.content{
+
+    position:relative;
+}
+
+body{
+
+    background-image: url('/Assets/nebulosa.png');
+    color: white;
+    font-style: oblique;
+}
+
+.legenda{
+
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }

@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" , intial-scale="1.0">
     <title> Oficina</title>
-    <link rel="stylesheet" href="CSS/STYLE.CSS">
+    <link rel="stylesheet" href="CSS/STYLE.CSS" type="text/css">
 </head>
 
 <body>
+    <nav>
     <header>
         <div id="main">
-            <div id="menu">
+            <div  id="menu">
                 <ul id="menu-h">
                     <li><a href="https://pt.wikipedia.org/wiki/Júpiter_(planeta)">Júpiter</a></li>
                     <li><a href="https://pt.wikipedia.org/wiki/Saturno_(planeta)">Saturno</a></li>
@@ -19,14 +20,26 @@
                 </ul>
             </div>
     </header>
+    </nav>
     <h1> OS MAIORES PLANETAS DO SISTEMA SOLAR</h1>
     <section class="flex">
-        <div class="container">
-            <div class="items"> <img src="Assets/júpiter.png" width="430px" height="200px">
-                <div class="items"> <img src="Assets/Saturno.png" width="360px" height="200px">
-                    <div class="items"> <img src="Assets/urano.png" width="410px" height="200px">
-                    </div>
-                </div>
+
+        <div class="content">
+            <div id="div1" class="items"> <img src="Assets/júpiter.png" width="430px" height="200px" title="Júpiter">
+                <div class="legenda"></div>
+            <h1>1° Júpiter</h1>
+
+            </div>
+
+            <div id="div2" class="items"> <img src="Assets/Saturno.png" width="360px" height="200px" title="Saturno">
+                <h1>2° Saturno</h1>
+
+            </div>
+
+
+            <div id="div3" class="items"> <img src="Assets/urano.png" width="410px" height="200px" title="Urano">
+                <h1>3° Urano</h1>
+
             </div>
         </div>
     </section>
