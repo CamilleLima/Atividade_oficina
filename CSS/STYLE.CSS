@@ -1,24 +1,24 @@
-div{
+div {
 
-margin: 0 auto;
-padding: 0;
-box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    box-sizing:border-box;
 
 }
 
-#menu-h{
-list-style: none;
+#menu-h {
+    list-style: none;
     padding: 0;
     background-color: rgb(67, 98, 155);
     flex-wrap: wrap;
 }
 
-#menu-h li{
+#menu-h li {
 
     display: inline-block;
 }
 
-#menu-h li a{
+#menu-h li a {
 
     color: white;
     padding: 20px;
@@ -27,9 +27,9 @@ list-style: none;
 
 }
 
-#menu-h li a:hover{
+#menu-h li a:hover {
 
- background-color: darkmagenta;
+    background-color: rgb(91, 35, 221);
 }
 
 footer {
@@ -39,3 +39,9 @@ footer {
     padding: 0.5em;
 }
 
+.container {
+
+    display: inline-block;
+    align-content:center;
+    justify-content:center;
+}
