@@ -82,8 +82,10 @@ body{
     bottom: 10px;
 }
 
-#ad-banner {
-    width: 300px;
+.ads {
+    background-color: #ccc;
     height: 250px;
-    margin: 10px auto;
- }
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+  }
